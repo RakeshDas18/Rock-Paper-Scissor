@@ -61,10 +61,9 @@ h1{
     padding: 0.8rem;
     border-radius: 30px;
 }
-
 @media (max-width: 500px){
     body{
-        width: 300px;
+        width: 400px;
         background-color: #8D89A6;
     }
     h1{
@@ -118,7 +117,7 @@ h1{
         color: black;
         font-family: sans-serif;
         font-weight: 700;
-        font-size: 1rem;
+        font-size: 0.5rem;
         display: inline;
         padding: 0.8rem;
         border-radius: 30px;
