@@ -62,7 +62,7 @@ h1{
     border-radius: 30px;
 }
 
-@media (max-width: 400px){
+@media (max-width: 500px){
     body{
         width: 300px;
         background-color: #8D89A6;
