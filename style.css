@@ -61,3 +61,67 @@ h1{
     padding: 0.8rem;
     border-radius: 30px;
 }
+
+@media (max-width: 400px){
+    body{
+        width: 300px;
+        background-color: #8D89A6;
+    }
+    h1{
+        color: black;
+        font-size: 1.5rem;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        height: 2rem;
+        line-height: 4rem;
+    }
+    .options{
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .option{
+        margin: 1rem;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .option img{
+        height: 9vh;
+        width: 9vh;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    .option img:hover{
+        cursor: pointer;
+        filter: brightness(50%);
+    }
+    .scores{
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        color: white;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 2rem;
+        gap: 1rem;
+        margin: 0.5rem;
+        padding: 1rem;
+    }
+    .userScore, .computerScore{
+        font-size: 2rem;
+        font-weight: 800;
+    }
+    .msg{
+        background-color: white;
+        color: black;
+        font-family: sans-serif;
+        font-weight: 700;
+        font-size: 1rem;
+        display: inline;
+        padding: 0.8rem;
+        border-radius: 30px;
+    }
+
+}
