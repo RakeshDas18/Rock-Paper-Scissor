@@ -11,7 +11,7 @@ const computerScores=document.querySelector(".computerScore");
 const genComputerOption = () =>{
     const choice=["ROCK", "PAPER", "SCISSOR"];
     const randomIdx = Math.floor(Math.random()*3);
-    return choice[randomIdx]
+    return choice[randomIdx];
 }   
 
 //Draw Game
@@ -27,7 +27,7 @@ const drawGame=()=>{
 
 showWinner = (userWin, userOption, computerOption) =>{
     if(userWin){
-        userScore++
+        userScore++;
         userScores.innerText=userScore;
         msg.innerText = `YOU WIN! ${userOption} BEATS ${computerOption}`;
         msg.style.backgroundColor="Green";
@@ -45,9 +45,9 @@ showWinner = (userWin, userOption, computerOption) =>{
 //Game
 
 const playGame = (userOption) =>{
-    console.log("User option is ", userOption)
+    console.log("User option is ", userOption);
     const computerOption=genComputerOption();
-    console.log("Computer option is ", computerOption)
+    console.log("Computer option is ", computerOption);
 
     if(computerOption===userOption){
         drawGame();
