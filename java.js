@@ -49,16 +49,16 @@ const playGame = (userOption) =>{
     const computerOption=genComputerOption();
     console.log("Computer option is ", computerOption);
 
-    if(computerOption===userOption){
+    if(computerOption === userOption){
         drawGame();
     } else {
         let userWin = true;
-        if(userOption=== "ROCK"){
-           userWin = computerOption==="PAPER" ? false : true;
+        if(userOption === "ROCK"){
+           userWin = computerOption === "PAPER" ? false : true;
         } else if (userOption === "PAPER"){
-            userWin = computerOption==="SCISSOR" ? false : true;
+            userWin = computerOption === "SCISSOR" ? false : true;
         } else {
-            userWin = computerOption==="ROCK" ? false : true;
+            userWin = computerOption === "ROCK" ? false : true;
         }
         showWinner(userWin, userOption, computerOption);
     }
