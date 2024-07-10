@@ -16,7 +16,7 @@ const genComputerOption = () =>{
 
 //Draw Game
 
-const drawGame=()=>{
+const drawGame = () => {
     console.log("Game was draw!");
     msg.innerText = "DRAW. PLAY AGAIN";
     msg.style.backgroundColor="Black";
