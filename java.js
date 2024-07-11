@@ -6,7 +6,7 @@ const msg = document.querySelector(".msg");
 const userScores=document.querySelector(".userScore");
 const computerScores=document.querySelector(".computerScore");
 
-//Computer Generate
+//Computer Generate 
 
 const genComputerOption = () =>{
     const choice=["ROCK", "PAPER", "SCISSOR"];
@@ -47,7 +47,6 @@ showWinner = (userWin, userOption, computerOption) =>{
 const playGame = (userOption) =>{
     console.log("User option is ", userOption);
     const computerOption=genComputerOption();
-    console.log("Computer option is ", computerOption);
 
     if(computerOption === userOption){
         drawGame();
