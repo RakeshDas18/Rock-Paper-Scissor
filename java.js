@@ -1,12 +1,12 @@
-let userScore=0;
-let computerScore=0;
+let userScore = 0;
+let computerScore = 0;
 
 const options = document.querySelectorAll(".option");
 const msg = document.querySelector(".msg");
-const userScores=document.querySelector(".userScore");
-const computerScores=document.querySelector(".computerScore");
+const userScores = document.querySelector(".userScore");
+const computerScores = document.querySelector(".computerScore");
 
-//Computer Generate 
+//Computer Generated
 
 const genComputerOption = () =>{
     const choice=["ROCK", "PAPER", "SCISSOR"];
