@@ -35,10 +35,10 @@ showWinner = (userWin, userOption, computerOption) =>{
     } else {
         computerScore++;
         computerScores.innerText=computerScore;
-        console.log("You Lose");
+        console.log("You Lose!!!");
         msg.innerText = `YOU LOSE! ${computerOption} BEATS ${userOption}`;
-        msg.style.backgroundColor="Red";
-        msg.style.color="White";
+        msg.style.backgroundColor = "Red";
+        msg.style.color = "White";
     }
 }
 
